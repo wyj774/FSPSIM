@@ -1,0 +1,108 @@
+/* styles.css 文件内容 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image: url("background.jpg");
+}
+
+.image-button1 {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.image-button1 img {
+    width: 60px;  /* 设置图片的宽度 */
+    height: 60px; /* 设置图片的高度 */
+}
+
+.image-button1 {
+    position: absolute;
+    top: 40px;    /* 距离顶部的距离 */
+    left: 0px;  /* 距离左侧的距离 */
+    /* 其他样式 */
+}
+
+h1 {
+    width: 100%;   /* 设置固定宽度 */
+    height: 42px;  /* 设置固定高度 */
+    position: absolute;
+    top: -23px;    /* 距离顶部的距离 */
+    left: 0px;  /* 距离左侧的距离 */
+    color: #121922;
+    background-color: rgb(167, 201, 224);
+    text-align: center;
+}
+
+.image-button2 {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.image-button2 img {
+    width: 60px;  /* 设置图片的宽度 */
+    height: 60px; /* 设置图片的高度 */
+}
+
+.image-button2 {
+    position: absolute;
+    top: 100px;    /* 距离顶部的距离 */
+    left: 0px;  /* 距离左侧的距离 */
+    /* 其他样式 */
+}
+
+#ns {
+    position: absolute;
+    display: none; /* 初始时隐藏新板块 */
+    top: 80px;
+    left: 100px;
+    width: 700px;
+    height: 400px;
+    padding: 10px;
+    background-color: rgb(195, 191, 197);
+}
+
+#nq {
+    position: absolute;
+    display: none; /* 初始时隐藏新板块 */
+    top: 80px;
+    left: 100px;
+    width: 700px;
+    height: 400px;
+    padding: 10px;
+    background-color: rgb(195, 191, 197);
+}
+
+/* 定义按钮放大的样式 */
+.button-enlarged {
+    transform: scale(1.1); /* 放大10% */
+    transition: transform 0.3s ease; /* 动画效果 */
+}
+
+p {
+    top: 0px;
+    text-align: center;
+    position: absolute;
+    width: 100%;   /* 设置固定宽度 */
+    font-size: larger;
+}
+
+pa {
+    top: 90px;
+    text-align: center;
+    position: absolute;
+    width: 100%;   /* 设置固定宽度 */
+    font-size: medium;
+}
+
+
+#result {
+    position: relative; /* 或 relative，取决于您想要的定位方式 */
+    top: 100px; /* 例如：10px 或 50% 等 */
+    width: 100%;   /* 设置固定宽度 */
+    text-align: center;
+}
